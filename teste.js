@@ -76,6 +76,17 @@ window.addEventListener('keyup', e => {
 
 })
 
+window.addEventListener('keydown', (event) => {
+     
+     let tecla = event.key
+     
+     if (tecla === "Enter") {
+          
+          bola.iniciar()
+     }
+     
+})
+
 const game = () => {
 
      c.clearRect(0, 0, wCanvas, hCanvas)
