@@ -55,8 +55,8 @@ class Bola {
             if ((this.x <= this.raquete.x + this.raquete.width && this.x + this.width >= this.raquete.x) &&
                (this.y + this.height >= this.raquete.y && this.y <= this.raquete.y + this.raquete.height)) {
 
-                this.directionX *= -1
-                this.directionY = ((-(this.y + (this.height / 2)) + (this.raquete.y + (this.raquete.height / 2))) / 16) // Bateru em cima vai para baixo e vice-versa
+                this.directionX = 1
+                this.directionY = ((-(this.y + (this.height / 2)) + (this.raquete.y + (this.raquete.height / 2))) / 16) // Bateu em cima vai para baixo e vice-versa
 
             }
 
